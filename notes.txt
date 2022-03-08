@@ -1,0 +1,9 @@
+2048 
+
+create grid (flex box or grid?)
+create a function to generate random number in random spot
+even numbers only and start with 2 2's on load (or 2 randoms)
+on keypress function to shift everything in that direction
+
+how to test if nums that touch are identical
+nums that sit next to each other dont morph, nums that slide into each other do morph

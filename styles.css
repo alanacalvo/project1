@@ -1,0 +1,22 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#container {
+    background-color: rgb(176,176,176);
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+}
+#game-board {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px;;
+    justify-content: center;
+}
+.boxes {
+    border: 2px solid black;
+}
+
