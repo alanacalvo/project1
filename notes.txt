@@ -7,3 +7,10 @@ on keypress function to shift everything in that direction
 
 how to test if nums that touch are identical
 nums that sit next to each other dont morph, nums that slide into each other do morph
+
+
+NEXT STEPS
+    transfer all data from snippet to vs code
+    possibly explore splice? or just get to know what slice is doing.
+    implement handleFunction to other arrow keys and do math there. 
+        Start with left key
