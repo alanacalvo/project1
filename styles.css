@@ -19,4 +19,11 @@ body {
 .boxes {
     border: 2px solid black;
 }
-
+.newDiv1, .newDiv2, .newDiv3, .newDiv4 {
+    display: flex;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black
+}
