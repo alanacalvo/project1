@@ -1,16 +1,29 @@
-2048 
+**************** // ** 2048 ** // *****************
 
-create grid (flex box or grid?)
-create a function to generate random number in random spot
-even numbers only and start with 2 2's on load (or 2 randoms)
-on keypress function to shift everything in that direction
+    [x] create grid
 
-how to test if nums that touch are identical
-nums that sit next to each other dont morph, nums that slide into each other do morph
+    [] function to generate 2 random 2's in random spot on load
+            // add this same functionality into keypresses to add one new 2
+            // need to add conditional that requires it to add to a new spot each time
+    [] 
+    [x] right keypress
+    [x] left keypress
+    [] up keypress
+    [] down keypress
 
 
-NEXT STEPS
-    transfer all data from snippet to vs code
-    possibly explore splice? or just get to know what slice is doing.
-    implement handleFunction to other arrow keys and do math there. 
-        Start with left key
+
+
+
+    NEXT STEPS
+        up and down keypress
+            // directly compare each arr[at specific index]
+
+
+
+
+
+REFACTOR CODE TO HAVE NESTED ARRAY
+Pull arrays at each index into new array and rotate. - 
+    rotateRight()
+        .map()[arr[0] ---- IN SCREEN SHOTS ---- then .reverse()
