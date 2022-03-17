@@ -80,7 +80,6 @@ const handleLeft = (arr, i, obj, node) => {
         const currentValue = parseInt(arr[i]);
         const nextValue = parseInt(arr[i-1])
         const sum = nextValue + currentValue;
-        
         arr[i-1] = sum;
         arr[i] = '';
         visibleNums[i-1].innerText = sum;
