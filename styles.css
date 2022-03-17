@@ -20,16 +20,20 @@ body {
     grid-template-columns: 100px 100px 100px 100px;;
     justify-content: center;
     padding: 35px;
+    background-color: black;
     border: 5px solid rgb(119,110,100);
 }
 
-.newDiv1, .newDiv2, .newDiv3, .newDiv4 {
+.squareDivs {
     display: flex;
     font-size: 75px;
     text-align: center;
     align-items: center;
+    height: 90px;
+    width: 90px;
     justify-content: center;
-    border: 5px solid rgb(119,110,100);
-    color: rgb(119,110,100);
+    border: 2px solid rgb(119,110,100);
+    color: red;
+    background-color: gray;
     font-family: 'Fredoka', sans-serif;
 }
