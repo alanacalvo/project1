@@ -27,3 +27,12 @@ REFACTOR CODE TO HAVE NESTED ARRAY
 Pull arrays at each index into new array and rotate. - 
     rotateRight()
         .map()[arr[0] ---- IN SCREEN SHOTS ---- then .reverse()
+
+
+
+game over SCREEN
+winner SCREEN
+score keeper
+add 2 on key press
+minimum styling
+
