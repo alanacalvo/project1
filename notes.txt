@@ -36,3 +36,12 @@ score keeper
 add 2 on key press
 minimum styling
 
+
+
+if square.innertext == 0 {
+    square.style.z index? 
+    OR
+    square.style. color to same as background
+    OR
+    square.style.font-size=0
+}
