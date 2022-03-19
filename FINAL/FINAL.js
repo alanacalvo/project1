@@ -42,6 +42,7 @@ const initializeGame = () => {
     insertTwo2[secondTwo[1]].style.background = 'rgb(253,245,200)';
     squares[secondTwo[0]][secondTwo[1]] = 2;
 }
+
 const genRandomTwo = () => {
     let checkIfZero = [];
     for (let i = 0; i < 4; i++) {
