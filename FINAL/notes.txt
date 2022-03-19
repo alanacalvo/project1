@@ -64,3 +64,5 @@ if square.innertext == 0 {
 // Big example of this is that early on I thought of how to remove the zeros. I saw .filter() and thought "maybe that will come in handy." An experienced
 // engineer I know said "hmmm, I don't think so." And that was enough for me to not even look past the page I was on. When I came back to refactor my project,
 // I ended up coming back to it and that was a key functionality in making my game work as concisely as it does.
+
+// Didn't plan well. Would definitely take more time to plan initially, and also take a moment to plan ahead while in the process.
