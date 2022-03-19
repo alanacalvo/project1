@@ -1,0 +1,47 @@
+**************** // ** 2048 ** // *****************
+
+    [x] create grid
+
+    [] function to generate 2 random 2's in random spot on load
+            // add this same functionality into keypresses to add one new 2
+            // need to add conditional that requires it to add to a new spot each time
+    [] 
+    [x] right keypress
+    [x] left keypress
+    [] up keypress
+    [] down keypress
+
+
+
+
+
+    NEXT STEPS
+        up and down keypress
+            // directly compare each arr[at specific index]
+
+
+
+
+
+REFACTOR CODE TO HAVE NESTED ARRAY
+Pull arrays at each index into new array and rotate. - 
+    rotateRight()
+        .map()[arr[0] ---- IN SCREEN SHOTS ---- then .reverse()
+
+
+
+game over SCREEN
+winner SCREEN
+score keeper
+add 2 on key press
+minimum styling
+
+
+
+if square.innertext == 0 {
+    square.style.z index? 
+    OR
+    square.style. color to same as background
+    OR
+    square.style.font-size=0
+}
