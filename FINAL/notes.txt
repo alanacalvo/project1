@@ -45,3 +45,22 @@ if square.innertext == 0 {
     OR
     square.style.font-size=0
 }
+
+// THINGS I LEARNED
+
+// It's okay to start fresh. Try to evaluate whether you're making progress, or if you're stuck in a rabbit hole.
+    // If you can't tell the difference, apparently you can pull down a different branch and change your path without losing all your potential progress.
+
+// Having everything in one main function isn't necessary. I was stuck on that for so long, until someone with fresh eyes shared how it was probably 
+// making things more difficult for me to comprehend (which it totally was). Once I split it up, things started making way more sense.
+
+// I learned a lot about ifs and elses and else ifs and if elses. My brain hurts.
+
+// I spent time talking with other engineers throughout this project. Family, TA, some of you guys, etc. I think that is a great thing to do, however, 
+// it ended up ultimately hindering me because of my mindset. I learned that I have been thinking of myself as so small because I'm so new at this. 
+// I would have an idea, but when someone gave another idea on how to go about something, I followed that rather than even diving into my own ideas.
+// Having never gone to college and not having significant work experience, I certainly don't view myself as some software engineer genius. I value others
+// opinions way more than my own, and that is something that needs to change. 
+// Big example of this is that early on I thought of how to remove the zeros. I saw .filter() and thought "maybe that will come in handy." An experienced
+// engineer I know said "hmmm, I don't think so." And that was enough for me to not even look past the page I was on. When I came back to refactor my project,
+// I ended up coming back to it and that was a key functionality in making my game work as concisely as it does.
