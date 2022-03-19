@@ -15,6 +15,8 @@ const initializeGame = () => {
         for (let col = 0; col < M; col++) {
             let squareDivs = document.createElement('div');
             squareDivs.classList.add(`squareDivs${row}`);
+            squareDivs.classList.add(`row:${row}`);
+            squareDivs.classList.add(`col:${col}`);
             document.getElementById('game-board').append(squareDivs);
             squareDivs.innerText = squares[row][col];
             const startColor = document.querySelectorAll(`.squareDivs${row}`);
