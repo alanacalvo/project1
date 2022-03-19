@@ -3,8 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(251,253,240);
-    /* border: 2px solid black; */
+    background-color: rgb(217,213,204);
     font-family: 'Fredoka', sans-serif;
 }
 h1, p, .score-keeper {
@@ -30,29 +29,21 @@ p {
     color: rgb(253,245,200);
 }
 #container {
-    /* background-color: rgb(176,176,176); */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 2px solid black; */
     flex-flow: column;
 }
 #game-board {
-    /* display: grid;
-    grid-template-rows: 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px; */
     height: 400px;
     width: 400px;
-    /* justify-content: center;
-    padding: 15px; */
     border-radius: 7px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(53,61,80);
-    border: 6px solid rgb(53,61,80);
+    background-color: rgb(189,174,145);
+    border: 6px solid rgb(189,174,145);
 }
-
 .squareDivs0, .squareDivs1, .squareDivs2, .squareDivs3 {
     display: flex;
     font-size: 60px;
@@ -61,36 +52,7 @@ p {
     height: 90px;
     width: 90px;
     justify-content: center;
-    border: 5px solid rgb(53,61,80);
+    border: 5px solid rgb(189,174,145);
     color: rgb(253,245,200);
-    background-color: rgb(116,185,164);
+    background-color: rgb(251,253,240);
 }
- /* .row, .col {
-     color: blue;
- } */
-/* 
-9 colors
-2 extra for white & dark font
-
-rgb(246,116,101); coral
-
-rgb(252,219,193); romance (peach)
-
-rgb(179,230,223); mint
-
-rgb(251,253,240); off white
-
-rgb(31,109,103); island time dark bluegreen
-
-rgb(189,174,145); light brownish
-
-rgb(116,185,164); teal
-
-rgb(253,245,200); vanillin yellowy
-
-rgb(115,156,184); pretty blue
-
-rgb(53,61,80); very dark blue
-
-rgb(119,110,100); brown for font
- */

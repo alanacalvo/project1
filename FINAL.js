@@ -15,8 +15,6 @@ const initializeGame = () => {
         for (let col = 0; col < M; col++) {
             let squareDivs = document.createElement('div');
             squareDivs.classList.add(`squareDivs${row}`);
-            squareDivs.classList.add(`row:${row}`);
-            squareDivs.classList.add(`col:${col}`);
             document.getElementById('game-board').append(squareDivs);
             squareDivs.innerText = squares[row][col];
             const startColor = document.querySelectorAll(`.squareDivs${row}`);
@@ -137,29 +135,30 @@ const slideDownColumn = (column) => {
 // All keydown functions. 
 document.onkeydown = function (e) {
     if (e.keyCode === 39) { // RIGHT KEY
-            for (let i = 0; i < maxLength; i++) {
-                const newRow = slideRightRow(squares[i]);
-                squares[i] = newRow;
+            for (let row = 0; row < maxLength; row++) {
+                const newRow = slideRightRow(squares[row]);
+                squares[row] = newRow;
             }
     } else if (e.keyCode === 37) { // LEFT KEY
-            for (let i = 0; i < maxLength; i++) {
-                const newRow = slideLeftRow(squares[i]);
-                squares[i] = newRow;
+            for (let row = 0; row < maxLength; row++) {
+                const newRow = slideLeftRow(squares[row]);
+                squares[row] = newRow;
             }
     } else if (e.keyCode === 38) { // UP KEY
         for (let col = 0; col < maxLength; col++) {
+            // LEARNED TO DO THIS RATHER THAN PUSH vvv
             const fakeRow = [squares[0][col], squares[1][col], squares[2][col], squares[3][col]];
             const newCol = slideUpColumn(fakeRow);
-            for (let i = 0; i < newCol.length; i++) {
-                squares[i][col] = newCol[i];
+            for (let row = 0; row < newCol.length; row++) {
+                squares[row][col] = newCol[row];
             }
         }
     } else if (e.keyCode === 40) { // DOWN KEY
         for (let col = 0; col < maxLength; col++) {
             const fakeRow = [squares[0][col], squares[1][col], squares[2][col], squares[3][col]];
             const newCol = slideDownColumn(fakeRow);
-            for (let i = 0; i < newCol.length; i++) {
-                squares[i][col] = newCol[i];
+            for (let row = 0; row < newCol.length; row++) {
+                squares[row][col] = newCol[row];
             }
         }
     }
