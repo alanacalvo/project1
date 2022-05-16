@@ -8,9 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
-    <title>Project 1: 2048</title>
+    <title>2048</title>
 </head>
 <body onLoad="initializeGame()">
+    <div id="winFunc">
+        <div class="modal-text">
+            <h1 class="modal-header">You win!</h1>
+            <p>Impressive! You reached 2048! Keep playing to see how high you can get, or start a new game.</p>
+            <button id="close-modal">Keep playing!</button>
+            <button id="close-modal">New Game</button>
+        </div>
+    </div>
+    <div id="loseFunc">
+        <div class="modal-text">
+            <h1 class="modal-header">You lost!</h1>
+            <p>Try again!</p>
+            <button id="close-modal">New Game</button>
+        </div>
+    </div>
     <div id="container">
         <div id="text-content">
             <h1>2048</h1>
@@ -21,6 +36,11 @@
         <div id="game-board">
         </div>
     </div>
-    <script defer src="./FINAL.js"></script>
+    <script defer src="./2048.js"></script>
+    <script defer src="./helper/updateGameBoard.js"></script>
+    <script defer src="./helper/keydownFuncs.js"></script>
+    <script defer src="./helper/slideFunc.js"></script>
+    <script defer src="./helper/loseFunc.js"></script>
+
 </body>
 </html>
